@@ -1,0 +1,50 @@
+.post-img {
+    height: 404px;
+    overflow: hidden;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+
+.blog-post-content h1 {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    text-align: center;
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+
+.blog-post-content p {
+    font-family: 'Tiro Devanagari Marathi', serif;
+    line-height: 2.0;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+}
+
+.more-post {
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogpost-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-info {
+    margin: 12px 0;
+}
+
+.author-info div {
+    padding: 4px 0px;
+    font-family: var(--font2);
+}
+
+.social {
+    padding-right: 53px;
+    align-self: center;
+    cursor: pointer;
+}
